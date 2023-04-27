@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Lato', 'Roboto', 'San-serif';
+}
+.hero {
+  height: 400px;
+  background-color: #1f2937;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px 64px 0 64px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 900;
+  color: goldenrod;
+  display: flex;
+  align-items: center;
+}
+
+.header-link-text ul {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  gap: 16px;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
