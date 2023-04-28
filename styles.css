@@ -17,7 +17,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 16px 64px 48px 64px;
+  margin: 16px 192px 48px 192px;
 }
 
 .logo {
@@ -49,7 +49,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 32px 64px 16px 64px;
+  margin: 32px 192px 16px 192px;
 }
 img {
   width: 400px;
@@ -92,10 +92,13 @@ button {
   font-size: 16px;
 }
 .sign-up-hero {
-  border-color: #3882f6;
+  border: solid 1px #3882f6;
 }
 .sign-up-footer {
-  border-color: #ffffff;
+  border: 1px solid #ffffff;
+}
+.login {
+  border: solid 1px #ffffff;
 }
 
 .information {
@@ -113,8 +116,9 @@ button {
 }
 .information-container {
   display: flex;
-  justify-content: space-evenly;
-  margin: 16px 64px;
+  justify-content: center;
+  gap: 48px;
+  margin: 16px 192px;
 }
 .box {
   height: 150px;
@@ -134,7 +138,7 @@ button {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 10px;
+  padding-top: 10px;
   width: 150px;
 }
 
@@ -150,14 +154,15 @@ button {
   font-style: italic;
   font-weight: 100;
   color: #1f2937;
-  margin: 0 64px;
+  margin: 0 192px;
+  text-align: justify;
 }
 .quote-author {
   font-size: 24px;
   font-weight: bold;
   text-align: end;
   color: #1f2937;
-  margin: 0 64px;
+  margin: 0 192px;
 }
 
 .cta-section {
@@ -175,6 +180,9 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  background-color: #3882f6;
+  color: #f9faf8;
+  margin: 0 64px;
 }
 
 .footer {
@@ -184,4 +192,15 @@ button {
   height: 72px;
   background-color: #1f2937;
   color: #f9faf8;
+}
+
+.cta-header-text {
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.cta-secondary-text {
+  font-weight: 300;
+  color: #e5e7eb;
+  font-size: 14px;
 }
