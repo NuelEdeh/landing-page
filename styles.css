@@ -28,15 +28,16 @@ body {
   align-items: center;
 }
 
-.header-link-text ul {
+ul {
   display: flex;
   align-items: center;
   margin: 0;
   gap: 16px;
-}
-
-ul {
   list-style: none;
+}
+.header-link-text {
+  display: flex;
+  gap: 16px;
 }
 a {
   text-decoration: none;
@@ -161,9 +162,9 @@ button {
 
 .cta-section {
   height: 200px;
-  margin-top: 32px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .cta-container {
